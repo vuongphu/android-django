@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/source_news"
+        android:key="source_news">
+
+
+
+
+
+    </PreferenceCategory>
+
+    <MultiSelectListPreference
+        android:title="@string/seleced_source"
+        android:entries="@array/source_entries"
+        android:key="sourceseleced"
+        android:entryValues="@array/source_entry_values"
+        android:defaultValue="@array/default_selected"
+        />
+
+
+
+
+
+
+    <PreferenceCategory
+        android:title="@string/pref_custom"
+        android:key="customapp">
+
+        <CheckBoxPreference android:title="@string/pref_notifi"
+            android:defaultValue="false"
+            android:summary="@string/pref_notifi_sumary"
+            android:key="enablenotifi" />
+        <RingtonePreference
+            android:key="notification_ringtone"
+            android:title="@string/pref_ringtone"
+            android:summary="@string/pref_ringtone_summary"
+            android:dialogTitle="Notification Ringtone"
+            android:dialogMessage="Customise Notification Ringtone for you"/>
+
+
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="pref_infor"
+        android:title="@string/app_name" >
+        <Preference android:title="@string/pref_info_app"
+            android:key="infor"
+            android:summary="Phiên bản 1.0"/>
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

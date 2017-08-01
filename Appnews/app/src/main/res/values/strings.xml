@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Tin Nhanh</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="action_settings">Settings</string>
+    <string name="content_setting">Kích thước chữ</string>
+    <string name="title_activity_content">Content</string>
+    <string name="pref_setting_contacts_title">NAME</string>
+    <string name="source_news">Nguồn Tin</string>
+    <string name="seleced_source">Chọn</string>
+    <string name="pref_info_app">Thông Tin</string>
+    <string name="pref_notifi">Thông báo</string>
+    <string name="pref_notifi_sumary">Chọn để nhận thông báo</string>
+    <string name="pref_custom">Tùy Chỉnh</string>
+    <string name="pref_ringtone">Âm Thông Báo</string>
+    <string name="pref_ringtone_summary">Chọn âm thông báo</string>
+
+</resources>
